@@ -1,4 +1,7 @@
 imgs/*
 imgs/.gitkeep
-out/*
-out/.gitkeep
+
+*.docx
+
+*.zip
+*.rar
