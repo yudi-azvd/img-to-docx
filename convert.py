@@ -61,7 +61,6 @@ def config_borders(document: Document):
   page_borders = OxmlElement('w:pgBorders')
   page_borders.set(qn('w:offsetFrom'), 'page')
 
-
   for border_name in ('top', 'bottom'):
     border = OxmlElement(f'w:{border_name}')
     border.set(qn('w:val'), 'single')
